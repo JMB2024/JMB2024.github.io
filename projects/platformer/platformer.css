@@ -1,11 +1,14 @@
 body {
+  background-image: ur("https://images.wallpaperscraft.com/image/single/night_city_road_lights_164297_1920x1080.jpg");
   margin: 0px;
 }
 
 canvas {
-  background-color: lightgray;
+  background-image: url("https://images.wallpaperscraft.com/image/single/night_city_road_lights_164297_1920x1080.jpg");
+  background-color: rgb(212, 197, 197);
 }
 
 img {
   display: none;
+  
 }
