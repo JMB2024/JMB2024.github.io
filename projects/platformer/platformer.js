@@ -15,12 +15,13 @@ $(function () {
       //start game
       setInterval(main, 1000 / frameRate);
     }
-    //create walls
+    //create walls 
+  
     createPlatform(-50, -50, canvas.width + 100, 50); //top
     createPlatform(-50, canvas.height - 10, canvas.width + 100, 200); //right
     createPlatform(-50, -50, 50, canvas.height + 500); //bottom
     createPlatform(canvas.width, -50, 50, canvas.height + 100);
-
+    
     /**
      * Uncomment the loops below to add a "grid" to your platformer game's screen
      * The grid will place both horizontal and vertical platforms incremented 100 pixels apart
@@ -55,6 +56,9 @@ $(function () {
     createPlatform(1200,380,50,20);
     createPlatform(900,350,50,20);
     createPlatform(200,620,50,20);
+    createPlatform(100,225,600,0);
+    createPlatform(775,285,50,20);
+    createPlatform(75,100,50,60);
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
@@ -64,6 +68,7 @@ $(function () {
     createCollectable("steve", 1350, 600, 6, 0.7);
     createCollectable("steve", 12, 520, 6, 0.7);
     createCollectable("steve", 1362,292,1,0)
+    createCollectable("steve", 100,100,0,0)
     // TODO 3
     // Create cannons
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
