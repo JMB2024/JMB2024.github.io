@@ -19,7 +19,7 @@ nav { border: 4px rgb( 4, 4,4) ridge;
 h1 { border: 4px rgb( 4, 4,4) ridge;
     display: flex;
     align-items: center;
-    color: rgb(7, 2, 2);
+    color: rgb(255, 12, 12);
     flex: 1;
     margin: 0;
 }
